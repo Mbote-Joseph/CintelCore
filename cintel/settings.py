@@ -26,9 +26,9 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '16.171.174.35'
-]
+ALLOWED_HOSTS = ['*']
+
+# 16.171.174.35
 
 TWILIO_ACCOUNT_SID = 'ACf33a7ad237f937ae5ce75decb27f535c'
 TWILIO_AUTH_TOKEN = 'd588891af5980099019b5ef3d5809c7f'
